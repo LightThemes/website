@@ -30,6 +30,9 @@ function search(e) {
   } else if (inputTextValue == "tiers") {
     window.open("https://overframe.gg/tier-list/melee-weapons", "_blank");
     clearInput();
+  } else if (inputTextValue == "wiki") {
+    window.open("https://warframe.fandom.com/wiki/WARFRAME_Wiki", "_blank");
+    clearInput();
   } else if (inputTextValue == "xqc") {
     window.open("https://twitch.tv/xqc", "_blank");
     clearInput();
